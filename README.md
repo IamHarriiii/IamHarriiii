@@ -19,7 +19,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iamharriiiii@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IamHarriiii)
 [![Instagram](https://img.shields.io/badge/Instagram-e1306c?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/h.arr.iiiii)
-[![Resume](https://img.shields.io/badge/Resume-Download-blue?style=for-the-badge)](./assets/Harinarayanan_U_Resume_2026.pdf)
+[![Resume](https://img.shields.io/badge/Resume-Download-blue?style=for-the-badge)](./assets/HarinarayananResume.pdf)
 
 </div>
 
