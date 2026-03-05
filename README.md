@@ -186,6 +186,3 @@ ask_me_about        = ["Text-to-SQL", "FastAPI", "iOS / SwiftUI", "end-to-end AI
 ![Profile Views](https://komarev.com/ghpvc/?username=IamHarriiii&color=64ffda&style=flat-square&label=profile+views)
 
 </div>
-
-
-wht do think abt this github readme 
