@@ -29,8 +29,8 @@
 
 ```yaml
 name        : HARINARAYANAN U
-location    : Kerala, India
-education   : B.Tech CSE @ Amrita Vishwa Vidyapeetham (2026)
+location    : Kollam, Kerala, India
+education   : B.Tech CSE @ Amrita Vishwa Vidyapeetham (2022 – 2026) · CGPA 8.28/10
 focus       : AI-powered backends · LLM systems · iOS · production ML
 status      : Open to roles in AI/ML engineering & backend systems
 publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
@@ -40,26 +40,42 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 
 ---
 
+## `$ cat education.log`
+
+**`Amrita Vishwa Vidyapeetham`** — B.Tech, Computer Science and Engineering *(Nov 2022 – Aug 2026)*
+```
+► CGPA: 8.28/10 · Kollam, Kerala, India
+► Relevant coursework: Data Structures & Algorithms, Object-Oriented Design (C++/Java),
+  Operating Systems, Database Management Systems, Computer Networks,
+  Distributed Systems, Design and Analysis of Algorithms
+```
+
+---
+
 ## `$ cat experience.log`
 
-**`RevGain AI`** — Software Developer Intern *(Sep 2025 – Feb 2026)*
+**`RevGain AI`** — Software Developer Intern *(Sep 2025 – Feb 2026)* · Hyderabad, India
 ```
-► Built and shipped a scalable backend API (Python + FastAPI + PostgreSQL)
-  → serving enterprise clients in production on AWS EC2 with Docker
-  → owned architecture, implementation, CI/CD deployment end-to-end
-► Designed AI-powered workflow — RAG pipeline with schema-linking
-  and few-shot prompting → ~85% accuracy, ~40% error reduction vs. baseline
-► <600ms p95 latency under concurrent multi-tenant load
-► Collaborated with product & data teams in Agile sprints
+► Designed and shipped a scalable AI-powered Text-to-SQL service
+  (FastAPI + PostgreSQL) deployed with Docker on AWS EC2 for
+  multi-tenant enterprise workloads
+► Engineered a reliable REST API (<600ms p95 latency) — idempotent
+  request handling, schema-aware SQL generation, Pydantic validation,
+  read-only DB access controls
+► ~85% accuracy on complex multi-join queries via schema-linking,
+  few-shot prompting, and RAG → ~40% error reduction vs. zero-shot baseline
+► Collaborated with product & data teams — requirements, AI output
+  evaluation, structured testing, Agile delivery
 ```
 
-**`TiVo`** — iOS Developer Intern *(Aug 2024 – Nov 2024)*
+**`TiVo`** — Software Developer Intern *(Aug 2024 – Nov 2024)* · Bangalore, India
 ```
-► Debugged production AVPlayer performance issues
-  → traced root cause through caching and state handling
-  → shipped fix reducing incidents by ~25% at scale
-► Contributed to 50+ code reviews enforcing quality and best practices
-► Delivered 8+ UI component redesigns improving maintainability
+► Diagnosed and resolved live service buffering issues in AVPlayer
+  by refactoring caching, prefetch logic, and player state handling
+  in Swift → ~25% reduction in buffering incidents at scale
+► Contributed to 50+ collaborative code reviews
+► Delivered 8+ SwiftUI component redesigns, improving code quality
+  and maintainability
 ```
 
 ---
@@ -67,13 +83,12 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 ## `$ ls projects/`
 
 <details>
-<summary><b>🎵 SONAR — Multimodal Emotion-Aware Music Recommender</b> <code>React · TypeScript · FastAPI · PyTorch · RoBERTa · openSMILE · Docker</code></summary>
+<summary><b>🎵 SONAR — Multimodal Emotion-Aware Music Recommender</b> <code>FastAPI · PyTorch · Transformers · React · Docker</code></summary>
 
 <br/>
 
-- Full-stack AI application — **TypeScript + React** frontend with real-time emotion display and music recommendation UI
-- Python **FastAPI** inference service running multimodal deep learning models (**RoBERTa** + **openSMILE**)
-- Confidence-aware **text + speech emotion fusion** → personalized Spotify playlists
+- Designed and implemented a multimodal AI platform integrating **EmoRoBERTa-X, DeBERTa, and WavLM** with confidence-aware fusion for personalized music recommendation
+- Built a production **FastAPI** inference pipeline with **SHAP-based explainability** for scalable transformer-based model serving
 - Published at **IEEE IATMSI 2026** (IEEE Xplore); IEEE Access journal submission in progress
 
 </details>
@@ -83,10 +98,19 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 
 <br/>
 
-- Designed and **published on PyPI** — atomic job claiming, DAG-based dependency resolution, Dead Letter Queue
-- Exponential backoff retry, **HMAC-signed webhooks**, real-time **Socket.IO** observability dashboard
-- Unit and integration tests validating atomicity guarantees and retry behaviour under concurrent load
-- Dockerized with **CI/CD** for scalable deployment
+- Designed and **published on PyPI** — broker-free distributed job queue using atomic job claiming for exactly-once task execution across concurrent workers
+- Exponential backoff retries, Dead Letter Queues (DLQ), DAG-based dependency resolution, cron scheduling
+- **HMAC-signed webhooks** and a real-time observability dashboard for queue health, worker activity, latency, and execution metrics
+
+</details>
+
+<details>
+<summary><b>🍣 SushiGo — Full-Stack Food Ordering Platform</b> <code>Django REST · PostgreSQL · Swift · Stripe · GPS · Docker</code></summary>
+
+<br/>
+
+- Built a full-stack food ordering platform with a **Django REST** backend and iOS client — secure role-based REST APIs, relational data models, and concurrent order workflows
+- Integrated third-party services including **Stripe** payments, real-time **GPS** tracking, and push notifications, ensuring reliable order state synchronization across distributed clients
 
 </details>
 
@@ -98,13 +122,13 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 @inproceedings{SONAR2026,
   title     = {SONAR: Hybrid Explainable Emotion-Aware Music Recommendation},
   venue     = {IEEE IATMSI 2026 (IEEE Xplore)},
-  highlight = {Multimodal AI (RoBERTa + openSMILE) · confidence-aware fusion · full XAI pipeline}
+  highlight = {Multimodal AI (EmoRoBERTa-X, DeBERTa, WavLM) · confidence-aware fusion · SHAP-based explainability}
 }
 
 @inproceedings{PrivMod2025,
   title     = {PrivMod: Federated Learning for Privacy-Preserving Content Moderation},
   venue     = {I4Tech 2025 (Scopus)},
-  highlight = {Federated CNN-BERT hybrid → 94% accuracy, ε=0.5 differential privacy · 100K+ samples}
+  highlight = {Federated CNN-BERT hybrid → 94% accuracy across 100K+ samples}
 }
 ```
 
@@ -117,11 +141,10 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-f54a2a?style=flat-square&logo=swift&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ed8b00?style=flat-square&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00add8?style=flat-square&logo=go&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2FC%2B%2B-00599c?style=flat-square&logo=c%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479a1?style=flat-square&logo=postgresql&logoColor=white)
 
 **Frontend**
@@ -131,7 +154,7 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 ![HTML](https://img.shields.io/badge/HTML-e34f26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572b6?style=flat-square&logo=css3&logoColor=white)
 
-**Backend & APIs**
+**Backend & Systems**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi)
 ![Django REST](https://img.shields.io/badge/Django_REST-ff1709?style=flat-square&logo=django&logoColor=white)
@@ -144,7 +167,7 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/Transformers-ffd21e?style=flat-square&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikit-learn&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-6e56cf?style=flat-square)
 
 **iOS**
 
@@ -152,11 +175,12 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 ![UIKit](https://img.shields.io/badge/UIKit-2396f3?style=flat-square&logo=apple&logoColor=white)
 ![AVFoundation](https://img.shields.io/badge/AVFoundation-1c1c1e?style=flat-square&logo=apple&logoColor=white)
 
-**Tools**
+**Tools & Concepts**
 
 ![Git](https://img.shields.io/badge/Git-f05033?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088ff?style=flat-square&logo=github-actions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-fcc624?style=flat-square&logo=linux&logoColor=black)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088ff?style=flat-square)
 
 </div>
 
