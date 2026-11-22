@@ -30,7 +30,7 @@
 ```yaml
 name        : HARINARAYANAN U
 location    : Kollam, Kerala, India
-education   : B.Tech CSE @ Amrita Vishwa Vidyapeetham (2022 – 2026) · CGPA 8.28/10
+education   : B.Tech CSE @ Amrita Vishwa Vidyapeetham (2022 – 2026) · CGPA 8.11/10
 focus       : AI-powered backends · LLM systems · iOS · production ML
 status      : Open to roles in AI/ML engineering & backend systems
 publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
@@ -44,7 +44,7 @@ publications: 2× IEEE Published (IEEE IATMSI 2026, I4Tech 2025)
 
 **`Amrita Vishwa Vidyapeetham`** — B.Tech, Computer Science and Engineering *(Nov 2022 – Aug 2026)*
 ```
-► CGPA: 8.28/10 · Kollam, Kerala, India
+► CGPA: 8.11/10 · Kollam, Kerala, India
 ► Relevant coursework: Data Structures & Algorithms, Object-Oriented Design (C++/Java),
   Operating Systems, Database Management Systems, Computer Networks,
   Distributed Systems, Design and Analysis of Algorithms
