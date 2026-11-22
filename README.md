@@ -184,6 +184,14 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
 
 ---
 
+## `$ ./contributions --city`
+
+<div align="center">
+<img src="./assets/contrib-city.svg" alt="My GitHub contributions drawn as an animated city" />
+</div>
+
+---
+
 ## `$ echo $INTERESTS`
 
 ```python
