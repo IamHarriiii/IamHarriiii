@@ -19,11 +19,11 @@
 [![Gmail](https://img.shields.io/badge/Gmail-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iamharriiiii@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IamHarriiii)
 [![Instagram](https://img.shields.io/badge/Instagram-e1306c?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/h.arr.iiiii)
-[![Resume](https://img.shields.io/badge/Resume-Download-blue?style=for-the-badge)](./assets/HarinarayananResume.pdf)
+[![Resume](https://img.shields.io/badge/Resume-Download-blue?style=for-the-badge)](./assets/HARINARAYANAN_Resume.pdf)
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ whoami`
 
@@ -39,7 +39,7 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
 
 > *2026 B.Tech CSE graduate with two software development internships, building Python backend services and full-stack applications. Skilled in FastAPI, React, PostgreSQL, REST APIs, LLM integration, and automated testing, with a foundation in distributed systems, security, and cloud deployment.*
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ cat education.log`
 
@@ -51,9 +51,13 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
   Distributed Systems
 ```
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ cat experience.log`
+
+<div align="center">
+<img src="./assets/timeline.svg" alt="Timeline: B.Tech at Amrita Nov 2022 to Aug 2026; TiVo internship Aug to Nov 2024; RevGain AI internship Sep 2025 to Feb 2026" />
+</div>
 
 **`RevGain AI`** — Software Developer Intern *(Sep 2025 – Feb 2026)* · Hyderabad, India
 ```
@@ -79,7 +83,7 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
   improving UI consistency and maintainability
 ```
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ ls projects/`
 
@@ -106,7 +110,7 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
 
 </details>
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ cat awards_and_publications.log`
 
@@ -123,7 +127,7 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
    Federated CNN-BERT hybrid → 94% accuracy across 100K+ samples
 ```
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ pip list`
 
@@ -171,7 +175,7 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ git log --stat`
 
@@ -182,7 +186,7 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
 <img src="https://streak-stats.demolab.com/?user=IamHarriiii&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=64ffda&ring=64ffda&fire=64ffda&currStreakLabel=64ffda" />
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ ./contributions --city`
 
@@ -190,17 +194,16 @@ award       : 2nd Prize & Most Innovative Project, Evolumin 2025
 <img src="./assets/contrib-city.svg" alt="My GitHub contributions drawn as an animated city" />
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ echo $INTERESTS`
 
 ```python
 currently_building  = ["RAG-powered backend systems", "LLM-based applications", "open-source dev tooling"]
-looking_to_collab   = ["backend systems", "real-world LLM projects", "open-source tooling"]
-ask_me_about        = ["Text-to-SQL", "RAG pipelines", "FastAPI", "distributed job queues", "end-to-end full-stack apps"]
+ask_me_about        = ["Text-to-SQL", "RAG pipelines", "FastAPI", "distributed job queues"]
 ```
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 ## `$ fortune | cowsay`
 
@@ -210,7 +213,7 @@ ask_me_about        = ["Text-to-SQL", "RAG pipelines", "FastAPI", "distributed j
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" alt="" /></p>
 
 <div align="center">
 
